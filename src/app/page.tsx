@@ -18,9 +18,8 @@ export default function Home() {
     <>
       <Hero />
       <Introduction />
-      <NavBar />
-      <TableOfContents />
-      <Testimonial
+      {/* <TableOfContents /> */}
+      {/* <Testimonial
         id="testimonial-from-tommy-stroman"
         author={{
           name: 'Tommy Stroman',
@@ -32,22 +31,21 @@ export default function Home() {
           “I didn’t know a thing about icon design until I read this book. Now I
           can create any icon I need in no time. Great resource!”
         </p>
-      </Testimonial>
-      <Screencasts />
+      </Testimonial> */}
+      {/* <Screencasts /> */}
       <Testimonial
         id="testimonial-from-gerardo-stark"
         author={{
-          name: 'Gerardo Stark',
-          role: 'Creator of Pandemicons',
+          name: 'Super Express',
+          role: '',
           image: avatarImage2,
         }}
       >
         <p>
-          “I’ve tried to create my own icons in the past but quickly got
-          frustrated and gave up. Now I sell my own custom icon sets online.”
+          Minister Łukasz Schreiber od dawna aktywnie zajmuje się polityką. W tym czasie zdążył poznać wiele sekretów, do których większość Polaków nie ma dostępu. Teraz zdecydował się je ujawnić!
         </p>
       </Testimonial>
-      <Resources />
+      {/* <Resources /> */}
       <FreeChapters />
       <Pricing />
       <Testimonials />

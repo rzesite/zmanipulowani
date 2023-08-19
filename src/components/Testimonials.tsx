@@ -21,10 +21,10 @@ const testimonials = [
   [
     {
       content:
-        'Mira’s teaching style is second to none. Everything was easy to follow every step of the way.',
+        'Minister Łukasz Schreiber od dawna aktywnie zajmuje się polityką. W tym czasie zdążył poznać wiele sekretów, do których większość Polaków nie ma dostępu. Teraz zdecydował się je ujawnić!',
       author: {
-        name: 'Antonio Littel',
-        role: 'Frontend Developer',
+        name: 'Super Express',
+        role: '',
         image: avatarImage3,
       },
     },
@@ -147,7 +147,7 @@ export function Testimonials() {
     <section className="py-8 sm:py-10 lg:py-16">
       <Container className="text-center">
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Some kind words from early customers...
+          Media...
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-600">
           I worked with a small group of early access customers to make sure all

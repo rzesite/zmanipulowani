@@ -128,25 +128,11 @@ export function Pricing() {
           <Plan
             name="Essential"
             description="The perfect starting point if you’re on a budget."
-            price="15"
+            price="55"
             href="#"
             features={[
               'The 240-page ebook',
               'Figma icon templates',
-              'Community access',
-            ]}
-          />
-          <Plan
-            featured
-            name="Complete"
-            description="Everything icon resource you could ever ask for."
-            price="229"
-            href="#"
-            features={[
-              'The 240-page ebook',
-              'Figma icon templates',
-              'Over an hour of screencasts',
-              'Weekly icon teardowns',
               'Community access',
             ]}
           />

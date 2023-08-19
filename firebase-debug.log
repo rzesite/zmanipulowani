@@ -1,0 +1,28 @@
+[debug] [2023-08-19T09:02:03.249Z] ----------------------------------------------------------------------
+[debug] [2023-08-19T09:02:03.250Z] Command:       /opt/homebrew/Cellar/node/19.6.1/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2023-08-19T09:02:03.250Z] CLI Version:   11.30.0
+[debug] [2023-08-19T09:02:03.250Z] Platform:      darwin
+[debug] [2023-08-19T09:02:03.250Z] Node Version:  v19.6.1
+[debug] [2023-08-19T09:02:03.250Z] Time:          Sat Aug 19 2023 11:02:03 GMT+0200 (czas środkowoeuropejski letni)
+[debug] [2023-08-19T09:02:03.251Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-19T09:02:03.286Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-19T09:02:03.286Z] > authorizing via signed-in user (rzepaw@gmail.com)
+[debug] [2023-08-19T09:02:03.286Z] [iam] checking project zmanipulowani-lukasz-schreiber for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-08-19T09:02:03.287Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/zmanipulowani-lukasz-schreiber:testIamPermissions [none]
+[debug] [2023-08-19T09:02:03.287Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/zmanipulowani-lukasz-schreiber:testIamPermissions x-goog-quota-user=projects/zmanipulowani-lukasz-schreiber
+[debug] [2023-08-19T09:02:03.287Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/zmanipulowani-lukasz-schreiber:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-19T09:02:03.538Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/zmanipulowani-lukasz-schreiber:testIamPermissions 200
+[debug] [2023-08-19T09:02:03.539Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/zmanipulowani-lukasz-schreiber:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-19T09:02:03.540Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/zmanipulowani-lukasz-schreiber [none]
+[debug] [2023-08-19T09:02:03.975Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/zmanipulowani-lukasz-schreiber 200
+[debug] [2023-08-19T09:02:03.975Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/zmanipulowani-lukasz-schreiber {"projectId":"zmanipulowani-lukasz-schreiber","projectNumber":"953703951522","displayName":"Zmanipulowani","name":"projects/zmanipulowani-lukasz-schreiber","resources":{"hostingSite":"zmanipulowani-lukasz-schreiber"},"state":"ACTIVE","etag":"1_0a93dad9-4b04-4b2c-96b8-dc4fa8f773f5"}
+[debug] [2023-08-19T09:02:05.501Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/zmanipulowani-lukasz-schreiber/sites pageToken=&pageSize=10
+[debug] [2023-08-19T09:02:06.507Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/zmanipulowani-lukasz-schreiber/sites 200
+[debug] [2023-08-19T09:02:06.507Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/zmanipulowani-lukasz-schreiber/sites {"sites":[{"name":"projects/zmanipulowani-lukasz-schreiber/sites/zmanipulowani-lukasz-schreiber","defaultUrl":"https://zmanipulowani-lukasz-schreiber.web.app","appId":"1:953703951522:web:22caf255bcf134b1b97bfb","type":"DEFAULT_SITE"}]}
+[debug] [2023-08-19T09:02:06.508Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:953703951522:web:22caf255bcf134b1b97bfb/config [none]
+[debug] [2023-08-19T09:02:07.495Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:953703951522:web:22caf255bcf134b1b97bfb/config 200
+[debug] [2023-08-19T09:02:07.496Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:953703951522:web:22caf255bcf134b1b97bfb/config {"projectId":"zmanipulowani-lukasz-schreiber","appId":"1:953703951522:web:22caf255bcf134b1b97bfb","storageBucket":"zmanipulowani-lukasz-schreiber.appspot.com","apiKey":"AIzaSyB-Q_kCC_UbDEa9oPSbvPEBRdZFSfGovjc","authDomain":"zmanipulowani-lukasz-schreiber.firebaseapp.com","messagingSenderId":"953703951522","measurementId":"G-PBQH4L63MM"}
+[debug] [2023-08-19T09:02:18.920Z] Error: ENOENT: no such file or directory, open '/Users/rzepaw/dev/rzesite/primer-ts/.next/server/client-reference-manifest.js'
+[error] 
+[error] Error: An unexpected error has occurred.

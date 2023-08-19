@@ -47,8 +47,8 @@ export default function Home() {
       </Testimonial>
       {/* <Resources /> */}
       <FreeChapters />
-      <Pricing />
-      <Testimonials />
+      {/* <Pricing /> */}
+      {/* <Testimonials /> */}
       <Author />
       <Footer />
     </>

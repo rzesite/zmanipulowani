@@ -46,7 +46,7 @@ export function Author() {
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
               >
                 <TwitterIcon className="h-10 w-10 fill-current" />
-                <span className="ml-4">Follow on Twitter</span>
+                <span className="ml-4">Twitter</span>
               </Link>
             </p>
           </div>

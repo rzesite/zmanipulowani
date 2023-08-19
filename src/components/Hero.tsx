@@ -17,10 +17,11 @@ function Testimonial() {
         </p>
       </blockquote>
       <figcaption className="mt-2 text-sm text-slate-500">
-        <strong className="font-semibold text-blue-600 before:content-['—_']">
+        {/* <strong className="font-semibold text-blue-600 before:content-['—_']">
           Jan Kowalski
-        </strong>
-        , Polskie Radio
+        </strong> */}
+        {/* ,  */}
+        Polskie Radio
       </figcaption>
     </figure>
   )

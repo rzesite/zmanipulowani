@@ -11,7 +11,7 @@ export function Introduction() {
       className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
-        <p className="font-display text-6xl font-extrabold tracking-tighter text-slate-900">
+        <p className="font-display text-4xl lg:text-5xl font-extrabold tracking-tighter text-slate-900">
           Lubisz słodkie kłamstwa czy wolisz gorzką prawdę?
         </p>
         <p className="mt-4">

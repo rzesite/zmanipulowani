@@ -55,9 +55,9 @@ export function Hero() {
             <p className="mt-4 text-3xl text-slate-600">
               czyli jak dobrzy ludzie dają się uwieść inteligentnej propagandzie
             </p>
-            <div className="mt-8 flex gap-4">
-              <Button href="#pricing" variant="outline" color="blue">
-                Kup
+            <div className="mt-8 flex gap-4 uppercase">
+              <Button href="https://wolnoscitradycja.salescrm.pl/cart/1eaea418-c88c-4f37-a960-c4019fa55ad5" variant="outline" color="blue">
+                Kup teraz
               </Button>
             </div>
           </div>

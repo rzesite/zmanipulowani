@@ -10,7 +10,7 @@ export function Footer() {
       </div>
         <div className='flex items-center justify-center'>
           <Image
-            className="inset-0 h-44 w-44 object-cover"
+            className="inset-0 h-44 w-44 object-cover grayscale"
             src={witLogo}
             alt="Wolność i Tradycja"
           />

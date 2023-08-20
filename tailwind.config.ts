@@ -35,6 +35,16 @@ export default {
         sans: 'var(--font-inter)',
         display: ['Cabinet Grotesk', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        book: {
+          red: "#E63643",
+          yellow: "#FADDB3",
+          blue: "#20314D"
+        },
+        blue: {
+          600: "#20314D",
+        }
+      }
     },
   },
   plugins: [],

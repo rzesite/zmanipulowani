@@ -28,8 +28,11 @@ export function Author() {
             />
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
+            <SectionHeading number="2" id="screencasts-title">
+              O autorze
+            </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Łukasz Schreiber </span>-&nbsp;autor,
+              <span className="block">Łukasz Schreiber </span>
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
               polityk i samorządowiec, minister w rządzie Mateusza Morawieckiego, poseł na Sejm z okręgu bydgoskiego od 2015 roku. Mistrz Polski juniorów w szachach, dziś mecenas tej dyscypliny w Polsce. Autor książki „Sulla 138 - 78 p.n.e.” poświęconej jednemu z najwybitniejszych wodzów Republiki Rzymskiej – Lucjuszowi Korneliuszowi Sulli. Prywatnie: meloman, kinoman, bibliofil i kibic sportowy.

@@ -47,7 +47,7 @@ export function Author() {
               </Link>
               <Link
                 target='_blank'
-                href="https://www.facebook.com/profile.php?id=100003230901351"
+                href="https://www.facebook.com/poselschreiberlukasz"
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600 hover:text-black"
               >
                 <BsFacebook className="h-10 w-10" />

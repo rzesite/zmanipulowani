@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
 import authorImage from '@/images/avatars/lukasz.jpg'
-import { BsInstagram, BsFacebook, BsTwitter } from "react-icons/bs";
+import { BsInstagram, BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
 
 
 export function Author() {
@@ -58,6 +58,13 @@ export function Author() {
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600 hover:text-black"
               >
                 <BsInstagram className="h-10 w-10" />
+              </Link>
+              <Link
+                target='_blank'
+                href="https://www.youtube.com/@ukaszschreiber7498"
+                className="inline-flex items-center text-base font-medium tracking-tight text-blue-600 hover:text-black"
+              >
+                <BsYoutube className="h-10 w-10" />
               </Link>
             </p>
           </div>

@@ -60,9 +60,9 @@ export function Hero() {
               <Link
                 target='_blank'
                 href="https://wolnoscitradycja.salescrm.pl/cart/1eaea418-c88c-4f37-a960-c4019fa55ad5"
-                className="p-2 border rounded-md border-book-blue text-book-blue bg-book-yellow/30 hover:bg-book-yellow shadow-lg"
+                className="p-2 rounded-md text-book-blue bg-book-yellow hover:bg-book-yellow/70 hover:shadow-sm"
               >
-                <span>Kup teraz - 55,00 zł</span>
+                <span className='font-bold'>Kup teraz</span> - 55,00 zł
               </Link>
             </div>
             <div className='text-xs mt-2 text-slate-600'>

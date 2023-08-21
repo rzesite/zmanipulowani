@@ -25,13 +25,22 @@ export function FreeChapters() {
               Darmowe rozdziały bezpośrednio na Twoją skrzynkę{' '}
               <span aria-hidden="true">&rarr;</span>
             </h3> */}
-            <div className="mt-4 sm:relative sm:flex sm:items-center sm:py-0.5 sm:pr-2.5 justify-end">
+            <div className="mt-4 sm:relative sm:flex sm:items-center sm:py-0.5 sm:pr-2.5 justify-end space-x-4">
               <Button
+                href="/zmanipulowani-spis-tresci.pdf"
                 type="submit"
                 color="white"
                 className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none"
               >
-                Pobierz
+                Pobierz spis treści
+              </Button>
+              <Button
+                href="/zmanipulowani-wprowadzenie.pdf"
+                type="submit"
+                color="white"
+                className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none"
+              >
+                Pobierz wprowadzenie
               </Button>
             </div>
           </form>

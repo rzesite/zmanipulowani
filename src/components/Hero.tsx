@@ -53,7 +53,7 @@ export function Hero() {
             <h1 className="font-display text-4xl lg:text-5xl font-extrabold tracking-tighter text-book-y sm:text-6xl">
               Zmanipulowani
             </h1>
-            <p className="mt-4 text-3xl text-slate-600">
+            <p className="mt-4 text-4xl text-slate-600">
               czyli jak dobrzy ludzie dają się uwieść inteligentnej propagandzie
             </p>
             <div className="mt-8 flex gap-4">
@@ -65,9 +65,10 @@ export function Hero() {
                 <span className='font-bold'>Kup teraz</span> - 55,00 zł
               </Link>
             </div>
-            <div className='text-xs mt-2 text-slate-600'>
-              * w przedsprzedaży z autografem
-            </div>
+            <ul className='text-xs mt-2 text-slate-600'>
+              <li>* w przedsprzedaży z autografem</li>
+              <li>** w przypadku dużych zamówień istnieje możliwość złożenia zapytania na adres e-mail: <a className='underline hover:text-book-red' href="mailto:kontakt@wolnoscitradycja.pl">kontakt@wolnoscitradycja.pl</a></li>
+            </ul>
           </div>
         </div>
       </div>

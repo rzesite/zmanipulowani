@@ -28,6 +28,7 @@ export function FreeChapters() {
             <div className="mt-4 sm:relative sm:flex sm:items-center sm:py-0.5 sm:pr-2.5 justify-end space-x-4">
               <Button
                 href="/zmanipulowani-spis-tresci.pdf"
+                target='_blank'
                 type="submit"
                 color="white"
                 className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none"
@@ -36,6 +37,7 @@ export function FreeChapters() {
               </Button>
               <Button
                 href="/zmanipulowani-wprowadzenie.pdf"
+                target='_blank'
                 type="submit"
                 color="white"
                 className="mt-4 w-full sm:relative sm:z-10 sm:mt-0 sm:w-auto sm:flex-none"

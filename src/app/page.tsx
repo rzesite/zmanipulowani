@@ -45,7 +45,7 @@ export default function Home() {
           Minister Łukasz Schreiber od dawna aktywnie zajmuje się polityką. W tym czasie zdążył poznać wiele sekretów, do których większość Polaków nie ma dostępu. Teraz zdecydował się je ujawnić!
         </p>
       </Testimonial>
-      {/* <Resources /> */}
+      <Resources />
       <FreeChapters />
       {/* <Pricing /> */}
       {/* <Testimonials /> */}

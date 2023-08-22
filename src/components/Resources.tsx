@@ -66,42 +66,20 @@ export function Resources() {
     >
       <Container>
         <SectionHeading number="3" id="resources-title">
-          Resources
+          Cytat z książki
         </SectionHeading>
-        <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Tools and resources you can use to get started even faster and
-          progress even further.
+        <p className="mt-8 font-display md:text-3xl italic text-justify tracking-tight text-slate-900">
+          <p className='text-9xl -mb-12'>&ldquo;</p>
+          <p>
+            Książka ta jest dla tych, którzy szukają odpowiedzi i nie uważają, że postradali wszystkie rozumy.
+            Dla pragnących poznać punkt widzenia, którego zazwyczaj nie spotka się w mediach – czyli gdzieś pomiędzy
+            partyjną propagandą i nienawistnym atakiem. Dla ciekawych kulisów, którzy pragną poznać jak wyglądają
+            manipulacje dziennikarzy i polityków w sprawach, które – jak się mogło wydawać – dobrze znali. Wreszcie
+            jest to pozycja dla wszystkich, którzy chcą wyrobić sobie zdanie, zamiast za głosem tłumu krytykować
+            film, którego widzieli jedynie trailer
+          </p>
+          <p className='text-9xl text-right'>&rdquo;</p>
         </p>
-        <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Design assets, icon teardowns, and a community of fellow icon
-          designers where you can ask questions, get feedback, and accelerate
-          your learning.
-        </p>
-      </Container>
-      <Container size="lg" className="mt-16">
-        <ol
-          role="list"
-          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20"
-        >
-          {resources.map((resource) => (
-            <li
-              key={resource.title}
-              className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12"
-            >
-              <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg sm:h-60 lg:h-40">
-                <resource.image />
-              </div>
-              <div>
-                <h3 className="text-base font-medium tracking-tight text-slate-900">
-                  {resource.title}
-                </h3>
-                <p className="mt-2 text-sm text-slate-600">
-                  {resource.description}
-                </p>
-              </div>
-            </li>
-          ))}
-        </ol>
       </Container>
     </section>
   )

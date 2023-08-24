@@ -59,7 +59,7 @@ export function Hero() {
             <div className="mt-8 flex gap-4">
               <Link
                 target='_blank'
-                href="https://wolnoscitradycja.salescrm.pl/cart/1eaea418-c88c-4f37-a960-c4019fa55ad5"
+                href="https://wolnoscitradycja.salescrm.pl/cart/add_product/8953"
                 className="p-2 rounded-md text-book-blue bg-book-yellow hover:bg-book-yellow/70 hover:shadow-sm"
               >
                 <span className='font-bold'>Kup teraz</span> - 55,00 zł

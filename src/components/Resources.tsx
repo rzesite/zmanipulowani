@@ -68,7 +68,7 @@ export function Resources() {
         <SectionHeading number="3" id="resources-title">
           Cytat z książki
         </SectionHeading>
-        <p className="mt-8 font-display md:text-3xl italic text-justify tracking-tight text-slate-900">
+        <div className="mt-8 font-display md:text-3xl italic text-justify tracking-tight text-slate-900">
           <p className='text-9xl -mb-12'>&ldquo;</p>
           <p>
             Książka ta jest dla tych, którzy szukają odpowiedzi i nie uważają, że postradali wszystkie rozumy.
@@ -79,7 +79,7 @@ export function Resources() {
             film, którego widzieli jedynie trailer
           </p>
           <p className='text-9xl text-right'>&rdquo;</p>
-        </p>
+        </div>
       </Container>
     </section>
   )

@@ -71,7 +71,7 @@ export function Resources() {
         <div className="mt-8 font-display md:text-3xl italic text-justify tracking-tight text-slate-900">
           <p className='text-9xl -mb-12'>&ldquo;</p>
           <p>
-            Książka ta jest dla tych, którzy szukają odpowiedzi i nie uważają, że postradali wszystkie rozumy.
+            Książka ta jest dla tych, którzy szukają odpowiedzi i nie uważają, że pozjadali wszystkie rozumy.
             Dla pragnących poznać punkt widzenia, którego zazwyczaj nie spotka się w mediach – czyli gdzieś pomiędzy
             partyjną propagandą i nienawistnym atakiem. Dla ciekawych kulisów, którzy pragną poznać jak wyglądają
             manipulacje dziennikarzy i polityków w sprawach, które – jak się mogło wydawać – dobrze znali. Wreszcie
